@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\sfg99\Code\GringleHeim_Debug-main\settings.h(19,55): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+  map_creator.cpp
+  player.cpp
+C:\Users\sfg99\Code\GringleHeim_Debug-main\settings.h(19,55): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+C:\Users\sfg99\Code\GringleHeim_Debug-main\player.cpp(121,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sfg99\Code\GringleHeim_Debug-main\player.cpp(121,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  world.cpp
+C:\Users\sfg99\Code\GringleHeim_Debug-main\settings.h(19,55): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+C:\Users\sfg99\Code\GringleHeim_Debug-main\world.cpp(179,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sfg99\Code\GringleHeim_Debug-main\world.cpp(179,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  GringleHeim.vcxproj -> C:\Users\sfg99\Code\GringleHeim_Debug-main\x64\Debug\GringleHeim.exe

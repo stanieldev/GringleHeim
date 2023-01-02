@@ -1,0 +1,48 @@
+#pragma once
+#ifndef ENTITY_H // include guard
+#define ENTITY_H
+
+#include <vector>
+
+
+
+class Player
+{
+    public:
+        std::vector<double> position = { 0, 0 };
+        std::vector<int> charisma[4]; // Number of NPC's
+        void move(std::vector<double>& pos);
+        Player() {
+            Player playerObj;
+        }
+
+};
+
+
+
+
+#endif /* ENTITY_H */
+
+
+
+#include "entity.h"
+#include <SFML/Window.hpp>
+
+
+
+
+
+
+void Player::move(std::vector<double>& pos)
+{
+    const std::vector<double> velocity = { 0.2, 0.4 }; // Scale Factor: N/A
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) // Move Up
+        pos.at(1) += velocity[1];
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) // Move Left
+        pos.at(0) -= velocity[0];
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) // Move Down
+        pos.at(1) -= velocity[1];
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) // Move Right
+        pos.at(0) += velocity[0];
+}

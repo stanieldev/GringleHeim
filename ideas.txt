@@ -1,0 +1,5 @@
+Parts of the 2D map come alive
+ - Rock monster by pickaxe or lava (defeating)
+ - Cliffs and beating monsters
+ - Evil wizard final boss
+Rejuvination Crystal (reverts world-loss)

@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\main.cpp(14,52): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\main.cpp(149,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\main.cpp(149,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\main.cpp(162,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\main.cpp(162,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  1 of 209 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GringleHeim.vcxproj -> C:\Users\sfg99\Code\GringleHeim - Alpha\GringleHeim\x64\Release\GringleHeim.exe
